@@ -446,3 +446,52 @@ label {
 .middle p {
   margin-bottom: 50px;
 }
+
+/* # FREE TRIAL */
+
+.free-trial {
+  height: 350px;
+}
+
+.trial-text {
+  width: 50%;
+  height: 350px;
+  padding-top: 120px;
+  color: #61082b;
+}
+
+.trial-btn {
+  width: 50%;
+  height: 350px;
+  padding: 10px 30px;
+  background-color: white;
+}
+
+.trial-link {
+  padding-top: 150px;
+  padding-left: 150px;
+}
+
+/* # FAQ */
+
+.faq hr {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.faq h3 {
+  font-size: 0.9rem;
+}
+
+.faq h3::after {
+  font-family: "Font Awesome 5 Free";
+  display: inline-block;
+  content: "\f078";
+  margin-left: 350px;
+  font-size: 0.9rem;
+  font-weight: bold;
+}
+
+.faq hr:last-of-type {
+  margin-bottom: 150px;
+}
