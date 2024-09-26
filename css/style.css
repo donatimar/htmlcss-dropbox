@@ -495,3 +495,49 @@ label {
 .faq hr:last-of-type {
   margin-bottom: 150px;
 }
+
+/* # FOOTER */
+
+footer {
+  background-color: black;
+  color: white;
+  padding-top: 80px;
+}
+
+.sb {
+  justify-content: space-between;
+}
+
+.footer-list li {
+  margin-bottom: 20px;
+}
+
+.footer-list li:first-child {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.footer-list li:last-child {
+  margin-bottom: px;
+}
+
+footer hr {
+  color: rgba(227, 227, 227, 0.5);
+  width: 120px;
+}
+
+.lang {
+  margin-top: 50px;
+  color: #d0d0d3;
+}
+
+.language {
+  margin-top: 50px;
+  padding-bottom: 50px;
+}
+
+.language .ita {
+  padding: 5px;
+  color: #999999;
+}
