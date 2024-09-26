@@ -49,7 +49,7 @@ h1 {
   margin-bottom: 40px;
 }
 
-/* NAV */
+/* # NAV */
 
 nav {
   display: flex;
@@ -86,7 +86,7 @@ nav .btn {
   padding: 5px 15px;
 }
 
-/* HEADER */
+/* # HEADER */
 header {
   background-color: #b4d0e7;
   padding-top: 150px;
@@ -135,7 +135,7 @@ header {
   margin-bottom: 60px;
 }
 
-/* BUSINESS PLAN */
+/* # BUSINESS PLAN */
 
 .box {
   border: 1px solid #d0d0d3;
@@ -306,7 +306,7 @@ label {
   padding-top: 40px;
 }
 
-/* PARTNER DROPBOX */
+/* # PARTNER DROPBOX */
 .partner {
   display: flex;
   margin-top: 150px;
@@ -334,4 +334,33 @@ label {
 .btn-partner {
   padding: 10px 15px;
   border: 1.5px solid black;
+}
+
+/* # OPERAZIONI DROPBOX BUSINESS */
+.flex.cards {
+  flex-wrap: wrap;
+}
+
+.operation {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+.card {
+  width: 300px;
+  height: 500px;
+  margin-right: 20px;
+}
+
+.card-pic {
+  width: 275px;
+  height: 275px;
+}
+
+.card-pic img {
+  width: 100%;
+}
+
+.card-text h3 {
+  margin-bottom: 30px;
 }
